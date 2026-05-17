@@ -6,6 +6,30 @@ This project combines FPGA-based digital design, closed-loop control, UART commu
 
 ---
 
+## Hardware Implementation
+
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/5c90e8d6-a842-41c1-8528-56e41880f241" />
+
+FPGA PID controller running on the EDGE Artix-7 board.
+
+---
+
+## Python GUI Output
+
+<img width="1600" height="841" alt="WhatsApp Image 2026-05-06 at 11 18 18 AM" src="https://github.com/user-attachments/assets/ff708ac4-dd34-481b-bb6c-d17e1990194a" />
+
+Real-time UART telemetry visualization.
+
+---
+
+## RTL Simulation
+
+<img width="1582" height="813" alt="WhatsApp Image 2026-05-06 at 12 32 40 AM" src="https://github.com/user-attachments/assets/76c18d38-9b75-4663-990b-98eb5c2ef091" />
+
+PID controller simulation output.
+
+---
+
 ## Features
 
 - PID controller implemented in Verilog HDL
@@ -161,7 +185,7 @@ No parity
 ## File Structure
 
 ```text
-PID-Controller-Verilog/
+FPGA-PID-Controller-using-Verilog/
 │
 ├── src/
 │   ├── pid_controller.v
@@ -176,14 +200,10 @@ PID-Controller-Verilog/
 ├── testbench/
 │   └── top_tb.v
 │
-├── simulation/
-│   └── top_tb.vcd
-│
 ├── Python_GUI/
 │   └── pid_gui.py
 │
 ├── requirements.txt
-├── .gitignore
 └── README.md
 ```
 
